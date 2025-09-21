@@ -1,0 +1,34 @@
+[versions]
+agp = "8.7.1"
+colorpicker = "2.3"
+kotlin = "1.9.0"
+kapt = "1.9.24"
+coreKtx = "1.16.0"
+appcompat = "1.7.0"          # appCompat version
+activity = "1.10.1"           # activity version
+room = "2.5.0"               # room version
+lifecycle = "2.5.0"          # lifecycle version
+coroutines = "1.6.4"         # coroutines version
+constraintLayout = "2.2.1"   # constraint layout version
+material = "1.12.0"           # material version
+junit = "4.13.2"             # junit version
+coreTesting = "2.1.0"        # core-testing version
+espressoCore = "3.5.1"           # espresso version
+junitVersion = "1.1.5"      # androidxJUnit version
+
+[libraries]
+androidx-core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "coreKtx" }
+colorpicker = { module = "com.github.Dhaval2404:ColorPicker", version.ref = "colorpicker" }
+junit = { group = "junit", name = "junit", version.ref = "junit" }
+androidx-junit = { group = "androidx.test.ext", name = "junit", version.ref = "junitVersion" }
+androidx-espresso-core = { group = "androidx.test.espresso", name = "espresso-core", version.ref = "espressoCore" }
+androidx-appcompat = { group = "androidx.appcompat", name = "appcompat", version.ref = "appcompat" }
+material = { group = "com.google.android.material", name = "material", version.ref = "material" }
+androidx-activity = { group = "androidx.activity", name = "activity", version.ref = "activity" }
+androidx-constraintlayout = { group = "androidx.constraintlayout", name = "constraintlayout", version.ref = "constraintLayout" }
+
+[plugins]
+android-application = { id = "com.android.application", version.ref = "agp" }
+kotlin-android = { id = "org.jetbrains.kotlin.android", version.ref = "kotlin" }
+kotlin-kapt = {id = "org.jetbrains.kotlin.kapt", version.ref = "kapt"}
+
