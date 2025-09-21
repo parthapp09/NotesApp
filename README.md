@@ -24,7 +24,7 @@ This is a simple **Notes App** where users can add, save, and manage their notes
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/yourusername/notes-app.git
+   git clone https://github.com/parthapp09/NotesApp.git
    
 2. Open the project in Android Studio.
 
